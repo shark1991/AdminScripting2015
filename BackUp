@@ -1,0 +1,4 @@
+#!/bin/bash
+
+tar -cvf /home/ben/mydata-backup.tar /home/ben/mydata
+
