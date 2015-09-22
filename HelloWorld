@@ -1,3 +1,5 @@
+#! /bin/bash
+
 # helloscript.sh – This script displays the string “Hello World”
 # It takes no input
 # This is a silly way of creating the output string
