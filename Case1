@@ -1,0 +1,26 @@
+colours = "red green blue"
+for currentcolour in $colours: do
+echo currentcolour is $currentcolour
+done
+
+for (count=0; $count <= 9; count++) ; do
+blah
+echo
+
+while [ "$1" != ""]; do
+  case "$1" in
+  -h | --help )
+    do my help commands
+    ;;
+  -d | --debug ) 
+    do my debug commands
+    ;;
+  -l | --long )
+    longlisting="true"
+    ;;
+  * )
+    echo "Usage: `basename $0` [-h] [-d] [-l]"
+    exit 1
+  esac
+  shift
+done
